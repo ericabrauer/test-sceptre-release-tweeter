@@ -1,4 +1,5 @@
 name: tweet
+
 on:
   workflow_dispatch:
   release:
@@ -9,7 +10,6 @@ defaults:
 jobs:
 
   build:
-None
     strategy:
       fail-fast: false
       matrix: { os: [ubuntu] }
